@@ -1,0 +1,80 @@
+a{
+    text-decoration: none;
+}
+header{
+    padding-left: 50px;
+    width: 100%;
+    background-color: rgb(111, 163, 240);
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    
+}
+header img{
+    padding-top: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+header h2{
+    padding-bottom: 5px;
+}
+main{
+    padding-left: 50px;
+    padding-right: 100px;
+    margin-bottom: 50px ;
+}
+main .slogan{
+    text-transform: uppercase;
+}
+main .soldcourse{
+    color: blue;
+}
+main .khoahoc{
+    width:300px;
+}
+
+main .frontend .anhto img{
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+main .frontend .anhnho{
+    margin-top: -20px;
+    padding-top:10px;
+    padding-left: 10px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+main .frontend .anhnho img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+main .teacher{
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+}
+
+main .price{
+    padding-left: 200px;
+    color: red;
+}
+footer{
+    padding-left: 50px;
+    width: 100%;
+    background-color: rgb(111, 163, 240);
+    font-family: 'Times New Roman', Times, serif;
+    color:white;   
+}
+footer img{
+    padding-top: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+footer h2{
+    padding-bottom: 5px;
+}
+
