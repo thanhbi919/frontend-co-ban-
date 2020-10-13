@@ -103,12 +103,17 @@ a{
     height: 500px;
 }
 .main-content .our-teacher .teacher-card {
+    border-radius: 5px;
     display:flex;
     border:1px solid #c3c3c3;
     margin-bottom: 10px;
 }
 .main-content .our-teacher .teacher-card .teacher-img pre {
     position: relative;
+    border:1px solid gray;
+    top:-40px;
+    width: 80px;
+    background-color: gray;
 }
 .main-content .our-teacher .teacher-card .teacher-img img{
     width: 310px;
