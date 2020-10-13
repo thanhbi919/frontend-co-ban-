@@ -1,0 +1,142 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    background-color: #238ffd;
+    padding-left: 100px;
+    box-shadow: 3px 3px 10px #8e8e8e;
+}
+.header .content{
+    display: inline-flex;
+    margin-right: 700px;
+}
+.header .content img{
+    padding: 24px;
+    vertical-align: middle;
+    width:50px;
+    height:50px; 
+    border-radius: 50%;
+}
+.header .content p{
+    font-size: 30px;
+}
+.header .list-menu .menu{
+    /* color:white; */
+    display: flex;
+    
+}
+.header .list-menu .menu{
+    margin: 30px;
+}
+.header .list-menu .menu .menu-title{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    
+}
+.header .list-menu  .hr {
+    background-color: rgb(104, 204, 84);
+    visibility: hidden;
+    height: 0.5px;
+}
+.header .list-menu .menu a:hover .hr{
+    visibility: visible;
+}
+.header .list-menu .menu a:hover{
+    padding: 6px;
+}
+.main-content{
+    padding-left: 100px;
+}
+.main-content .page-title{
+    text-transform: uppercase;
+}
+.main-content .page-description{}
+.main-content .standout-courses{
+    width: 300px;
+    display: inline-flex;
+}
+.main-content .section-title{
+    color: blue;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.main-content .standout-courses .course-card{
+    margin-right: 25px;
+}
+
+.main-content .standout-courses .course-card .course-img img{
+    border-top-right-radius:5px ;
+    border-top-left-radius:5px ;
+    width: 300px;
+    margin-bottom: -20px;
+    
+}
+.main-content .standout-courses .course-content{
+    padding-top: 10px   ;
+    border-left: 1px solid#c3c3c3;
+    border-bottom: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+}
+.main-content .standout-courses .course-content .course-name{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.main-content .standout-courses .course-content .course-teacher{
+    padding:10px;
+}
+
+.main-content .standout-courses .course-content .course-teacher img{
+    vertical-align: middle;
+}        
+.main-content .standout-courses .course-content .course-price{
+    margin-left: 200px;
+    color: red;
+}
+.main-content .our-teacher {
+    width: 500px;
+    height: 500px;
+}
+.main-content .our-teacher .teacher-card {
+    display:flex;
+    border:1px solid #c3c3c3;
+    margin-bottom: 10px;
+}
+.main-content .our-teacher .teacher-card .teacher-img pre {
+    position: relative;
+}
+.main-content .our-teacher .teacher-card .teacher-img img{
+    width: 310px;
+    height: 150px;
+    vertical-align: middle;
+}
+.main-content .our-teacher .teacher-infor {
+    padding:10px
+}
+.auto {
+    display:block;
+    overflow:auto;
+}
+footer{
+    margin-top: 100px;
+    background-color: #238ffd;
+    padding-left: 100px;
+    box-shadow: 3px 3px 10px #8e8e8e;
+    display: flex;
+}
+
+.footer { 
+    padding-top: 17px;
+    padding-bottom: 10px;
+}
+.footer .content h3{
+    margin-top: 0px;
+}
+.menu-other{
+    margin-left: 500px;
+}
