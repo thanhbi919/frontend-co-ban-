@@ -52,6 +52,7 @@ a{
 }
 .main-content{
     padding-left: 100px;
+    width: 1200px;
 }
 .main-content .page-title{
     text-transform: uppercase;
