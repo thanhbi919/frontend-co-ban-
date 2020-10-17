@@ -289,19 +289,41 @@ header{
 }
 .contact-us .contact-form{
     width: 50%;
-    padding:5%;
+    padding-left: 5%;
+    padding-right: 2.5%;
+    border: 1px solid gray;
 }
 .contact-us .contact-form .title{
     text-align: left;
     text-transform: uppercase;
 }
-label{
-    width: 300px;
+.form-item{
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-item label{
+    width: 80px;
     margin-right: 40px;
 }
-
-
-
+.form-item input{
+    width: 100%;
+    padding-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #cacaca;
+}
+.register-now{
+    border: none;
+    background-color: #238ffd;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    float: right;
+    border-radius: 5px;
+}
 
 
 footer{
