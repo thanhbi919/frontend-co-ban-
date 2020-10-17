@@ -299,3 +299,26 @@ label{
     width: 300px;
     margin-right: 40px;
 }
+
+
+
+
+
+footer{
+    margin-top: 100px;
+    background-color: #238ffd;
+    padding-left: 100px;
+    box-shadow: 3px 3px 10px #8e8e8e;
+    display: flex;
+}
+
+.footer { 
+    padding-top: 17px;
+    padding-bottom: 10px;
+}
+.footer .content h3{
+    margin-top: 0px;
+}
+.menu-other{
+    margin-left: 500px;
+}
