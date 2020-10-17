@@ -20,8 +20,8 @@ header{
 .header{
     display: flex;
     justify-content: space-between;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .header .content .logo-container{
     width: 320px;
@@ -125,8 +125,12 @@ header{
     transition: 0.8s;
 }
 .main-content {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+}
+.main-content .page-title h1{
+    text-align: center;
 }
 .main-content .page-title{
     padding: 0px 359px;
@@ -162,36 +166,30 @@ header{
 
 }
 .standout-courses .card .course-card{
-    width: 256px;
-    height: 328px;
+    width: 23.5%;
     /* box-shadow: 3px 3px 10px #8e8e8e; */
     border-radius: 5px;
     margin: auto;
+    background-color: #ececec;
+    transition: 0.4s;
 } 
 
-.standout-courses .card .course-card :hover{
-    /* box-shadow: 3px 3px 10px #8e8e8e; */
+.standout-courses .card .course-card:hover{
+    box-shadow:3px 3px 10px #8e8e8e;
 }
 .standout-courses .card .course-card .course-img {
-    width: 256px;
-    height: 144px;
+   width: 100%;
 
 }
 .standout-courses .card .course-card .course-img img{
-    width: 256px;
-    height: 144px;
+    width: 100%;
     border-top-right-radius:5px ;
     border-top-left-radius:5px ;
 }
 .standout-courses .card .course-card .course-content{
     border-bottom-left-radius:5px ;
     border-bottom-right-radius: 5px;
-    border-bottom: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
     padding:15px;
-    width: 256px;
-    height: 185px;
     background-color: #ececec;
 }
 .standout-courses .card .course-card .course-content .course-name a{
@@ -209,4 +207,95 @@ header{
 }
 .standout-courses .card .course-card .course-content .course-teacher span{
     color: black;
+}
+.our-teacher{
+    width: 100%;
+}
+.section-title{
+    /* position: relative; */
+    text-align: center;
+    text-transform: uppercase;
+}
+.our-teacher .teachers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.our-teacher .teacher{
+    position: relative;
+    width: 45%;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+    transition: 1s;
+}
+.our-teacher .teacher:hover{
+    box-shadow:3px 3px 10px #8e8e8e;
+}
+.our-teacher .teacher .course-number {
+    position: absolute;
+    top:80%;
+    left:5% ;
+}
+.our-teacher .teacher .course-number span{
+    padding:5px;
+    /* border-radius: 5px; */
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+}
+.our-teacher .teacher .image-background{
+    background-image: url(my-tam-teacher.jpg);   
+    background-position:center;
+    background-size:100%;
+    width: 250px ;
+    height: 200px;
+    transition:all 1s;
+}
+.teachers .teacher .image-background:hover {
+    background-size: 150%;
+}
+.our-teacher .teacher .teacher-info{
+    background-color: #ececec;
+    flex-grow:1 ;
+    padding:15px;
+}
+.our-teacher .teacher .teacher-info .name{
+    font-size: 16px;
+    padding:5px;
+    text-transform: uppercase;
+}
+.our-teacher .teacher .teacher-info .job-title{
+    font-size: 16px;
+    padding:5px;
+}
+.our-teacher .teacher .teacher-info .birthday{
+    font-size: 16px;
+    padding:5px;
+}
+.contact-us{
+    margin: 2.5%;
+}
+.contact-us .contact-img{
+    background-image: url(abc.png);
+    background-size: 100%;
+    background-position: center;
+    width: 50%;
+    height: 400px;
+}
+.contact-container{
+    display: flex;
+}
+.contact-us .contact-form{
+    width: 50%;
+    padding:5%;
+}
+.contact-us .contact-form .title{
+    text-align: left;
+    text-transform: uppercase;
+}
+label{
+    width: 300px;
+    margin-right: 40px;
 }
