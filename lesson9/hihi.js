@@ -122,9 +122,12 @@ function clicksubmit() {
 }
 function input(id){
     var k = document.getElementById(id).value;
-    document.getElementById(id).style.textTransform='uppercase'
+    document.getElementById(id).style.textTransform='uppercase';
+    console.log(k, isNaN(k));
     if(isNaN(k)){
         document.getElementById(id).style.border = 'solid 1px gray';
     }
+    
+
 }
 

@@ -114,13 +114,14 @@
         font-size: 35px;
     }
 }
-/* .update{
+.update{
     background-color: blue;
     width: auto;
     position: fixed;
     bottom:200px;
     left: 17%;
-} */
+    z-index: 1000;
+}
 
 .main-content {
     padding: 50px 0;
