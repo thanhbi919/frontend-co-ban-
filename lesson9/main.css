@@ -121,6 +121,21 @@
     bottom:200px;
     left: 17%;
     z-index: 1000;
+    animation-name: downTop;
+    animation-duration: 1s;
+}
+@keyframes downTop {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+        /* font-size: 50px; */
+    }
+
+    to {
+        transform: translateY(400);
+        opacity: 1;
+        /* font-size: 35px; */
+    }
 }
 
 .main-content {
