@@ -10,3 +10,26 @@
 .container{
     width: 960px;
 }
+.header-container .top-header{
+    padding: 10px 0;
+}
+.header-container .nav a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+.header-container .nav a:hover{
+    color:  #c79c60;
+    transition: 0.7s ease-in;
+}
+.active{
+    background-image: url(./img/logo.png),url(./img/nav-underline.png);
+    background-repeat: no-repeat;
+    background-position: 0% 45%, center bottom;
+    background-size: 20px, 82px 20px;
+}
+.active a{
+    padding-left: 10px;
+}
