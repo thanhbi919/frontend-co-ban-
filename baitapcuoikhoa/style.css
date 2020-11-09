@@ -13,6 +13,9 @@
 .header-container .top-header{
     padding: 10px 0;
 }
+.top-header img{
+    padding-right: 10px;
+}
 .header-container .nav a{
     font-size: 14px;
     color: white;
@@ -36,10 +39,6 @@
 .welcome-section{
     background-color: #282726;
 }
-.welcome-header{
-    top: 54%;
-    left: 23%;
-}
 .welcome-section .welcome-header h2{
     font-size: 56px;
     font-family: 'Damion', cursive;
@@ -51,4 +50,14 @@
     font-family: 'Times New Roman', serif;
     font-size: 62px;
     text-transform: uppercase;
+}
+.gray-text{
+    color: gray;
+}
+.welcome-content{
+    margin: -12% auto ;
+    max-width: 650px;
+    top:10%;
+    left: 10%;
+    z-index: 1;
 }
