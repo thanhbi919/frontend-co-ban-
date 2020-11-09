@@ -14,7 +14,7 @@
     padding: 10px 0;
 }
 .header-container .nav a{
-    font-size: 12px;
+    font-size: 14px;
     color: white;
     text-decoration: none;
     font-weight: 700; 
@@ -32,4 +32,23 @@
 }
 .active a{
     padding-left: 10px;
+}
+.welcome-section{
+    background-color: #282726;
+}
+.welcome-header{
+    top: 54%;
+    left: 23%;
+}
+.welcome-section .welcome-header h2{
+    font-size: 56px;
+    font-family: 'Damion', cursive;
+}
+.gold-text{
+    color: #c79c60;
+}
+.welcome-header-2{
+    font-family: 'Times New Roman', serif;
+    font-size: 62px;
+    text-transform: uppercase;
 }
