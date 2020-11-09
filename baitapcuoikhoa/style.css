@@ -1,0 +1,12 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.header-container{
+    background-color: black;
+}
+.container{
+    width: 960px;
+}
