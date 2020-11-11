@@ -49,21 +49,29 @@ a, a:hover{
 }
 .welcome-section{
     height: 500px;
-    width: 100;
 }
 .img-light{
+    width: 100%;
     top:0;
-    left: 14%;
-}
-.header-img{
-    top: 40%;
-    left: 28%;
-    color:white;
-    font-size: 3.5rem;
+    left: 0%;
 }
 .content-welcome{
-    
+    font-size: 3.5rem;
+}
+.header-img{
+    color: white;
 }
 .img-line{
     padding:25px;
+}
+.gold-text{
+    color:#c79c60;
+    /* text-transform: uppercase; */
+}
+.welcome-content{
+    
+}
+.welcome-2{
+    font-family: 'Times New Roman', serif;
+    text-transform: uppercase;
 }
