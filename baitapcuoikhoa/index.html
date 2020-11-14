@@ -6,6 +6,8 @@
     <title>D</title>
     <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -14,31 +16,40 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script></head>
 <body class="loaded">
-   <header class="header-container ">
-       <div class="container">
-            <div class="d-flex  align-items-center top-header">
-                <div class="mr-auto p-2 bd-highlight d-flex logo align-items-center">
-                    <img src="./img/logo.png" alt="">
-                    <h1 class="mb-0" style="color: #c79c60 ;font-family: 'Damion', cursive;font-size: 34px;">Coffee House</h1>
-                </div>
-                <div class="p-4 nav  active">
-                    <a href="">Home</a>
-                </div>
-                <div class="p-4 nav ">
-                    <a href="">Today special</a>
-                </div>
-                <div class="p-4 nav">
-                    <a href="">Menu</a>
-                </div>
-                <div class="p-4 nav ">
-                    <a href="">Contact</a>
-                </div>
+    <header class="bg-dark">
+        <div class="container header-content d-flex justify-content-between align-items-center ">       
+            <div class="d-flex justify-content-start align-items-center">
+                <img src="./img/logo.png" alt="" class="">
+                <h1 class="tm-handwriting-font" style="margin: 0; color: #c79c60;">Cafe House</h1>
             </div>
-       </div>
-   </header>
+            <div class="">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active none-nav" id="pills-home-tab" data-toggle="pill" href="#" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+                    </li>
+                    <li class="nav-item " role="presentation">
+                      <a class="nav-link none-nav" id="pills-profile-tab" data-toggle="pill" href="#today-special" role="tab" aria-controls="pills-todayspecial" aria-selected="false">Today Special</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link none-nav" id="pills-profile-tab" data-toggle="pill" href="" role="tab" aria-controls="pills-menu" aria-selected="false">Menu</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link none-nav" id="pills-contact-tab" data-toggle="pill" href="" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"></div>
+                    <div class="tab-pane fade" id="pills-todayspecial" role="tabpanel" aria-labelledby="pills-profile-tab"></div>
+                    <div class="tab-pane fade" id="pills-menu" role="tabpanel" aria-labelledby="pills-contact-tab"></div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"></div>
+                  </div>
+            </div>
+        </div>
+
+    </header>
    <main>
        <section id="welcome-section" class="welcome-section">
-            <div class="container position-relative ">
+            <div class="container position-relative" style="height: 880px;">
                 <div class="light-container mr-auto ">
                     <img src="./img/light.png" alt="">
                     <img src="./img/light.png" alt="">
@@ -62,14 +73,14 @@
                         </a>
                         . Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
                     </p>
-                    <div class="btn-welcome ">
+                    <div class="btn-welcome">
                         <a href="#main" class="btn">Details</a>
                     </div>
-                    <img src="./img/table-set.png" alt="" class=" img-table img-resposive">
+                    <img src="./img/table-set.png" alt="" class=" img-table img-resposive position-absolute" style="top: 79%;left: 6%;">
                 </div> 
             </div>
        </section>
-       <section id="main-section" class="bg-light">
+       <section id="main-section" class="bg-gray" style="padding-top: 10%;">
             <div class="container main-section">
                 <div class="main-title row">
                     <div class="col-9">
@@ -87,7 +98,179 @@
                         <a href="#main" class="btn">Read more</a>
                 </div>
             </div>
-       </section>
+            <div class="d-flex align-items-center container">
+                <img class="item-logo " src="./img/logo.png" alt="">
+                <h1 class="gold-text tm-handwriting-font p-2 ">Popular Item</h1>
+                <hr class=" flex-grow-1 tm-hr" style="border-color:#c79c60;">
+            </div>
+            <div class="popular-items container d-flex mb-5">
+                
+                <div class="popular-item text-center position-relative ">
+                    <div class="mb-3">
+                        <img style="width: 97.25%;" src="./img/popular-1.jpg" alt="">
+                    </div>
+                    <div class="popular-item-tilte">
+                        <h3 class="tm-handwriting-font" style="font-size: 34px;">
+                            Americano</h3>
+                        <hr width="60% " class="mx-auto" style="margin-top:0;">
+                    </div>
+                    <div class="mx-auto" style="width: 70%; font-size: 14px;margin-bottom: 4rem;">
+                        <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
+                    </div>
+                    <div class="rounded-circle position-absolute order-now" style=" width: 85px; height: 85px;font-size: 20px;background-color: rgb(82, 76, 76);padding:4px">
+                        <div class="order-now-link"> <a class="tm-handwriting-font " href="#"  >Order Now</a></div>
+                        </div>
+                </div>
+                <div class="popular-item text-center position-relative ">
+                    <div class="mb-3">
+                        <img style="width: 97.25%;" src="./img/popular-1.jpg" alt="">
+                    </div>
+                    <div class="popular-item-tilte">
+                        <h3 class="tm-handwriting-font" style="font-size: 34px;">
+                            Americano</h3>
+                        <hr width="60% " class="mx-auto" style="margin-top:0;">
+                    </div>
+                    <div class="mx-auto" style="width: 70%; font-size: 14px;margin-bottom: 4rem;">
+                        <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
+                    </div>
+                    <div class="rounded-circle position-absolute order-now" style=" width: 85px; height: 85px;font-size: 20px;background-color: rgb(82, 76, 76);padding:4px">
+                        <div class="order-now-link"> <a class="tm-handwriting-font " href="#"  >Order Now</a></div>
+                        </div>
+                </div>
+                <div class="popular-item text-center position-relative ">
+                    <div class="mb-3">
+                        <img style="width: 97.25%;" src="./img/popular-1.jpg" alt="">
+                    </div>
+                    <div class="popular-item-tilte">
+                        <h3 class="tm-handwriting-font" style="font-size: 34px;">
+                            Americano</h3>
+                        <hr width="60% " class="mx-auto" style="margin-top:0;">
+                    </div>
+                    <div class="mx-auto" style="width: 70%; font-size: 14px;margin-bottom: 4rem;">
+                        <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
+                    </div>
+                    <div class="rounded-circle position-absolute order-now" style=" width: 85px; height: 85px;font-size: 20px;background-color: rgb(82, 76, 76);padding:4px">
+                        <div class="order-now-link"> <a class="tm-handwriting-font " href="#"  >Order Now</a></div>
+                        </div>
+                </div>
+            </div>
+            <div id="today-special" class="d-flex align-items-center container">
+                <img class="item-logo " src="./img/logo.png" alt="">
+                <h1 class="gold-text tm-handwriting-font p-2 ">Today's Special</h1>
+                <hr class=" flex-grow-1 tm-hr" style="border-color:#c79c60;">
+            </div>
+            <div class="today-specials container">
+                <div class="row justify-content-around">
+                    <div style="background-color: white; padding:1rem">
+                        <div class="position-relative">
+                            <img src="./img/special-1.jpg" alt="" class="position-relative">
+                            <div class="position-absolute special-title p-3" style="background-color: black;opacity: 0.7; width: 100%;">
+                                <h3 class="">
+                                    Donec pede justo
+                                </h3>
+                                <p style="font-size: 14px;">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="background-color:white; padding:1rem">
+                            <div class="position-relative">
+                                <img src="./img/special-2.jpg" alt="" class="position-relative">
+                                <div class="position-absolute special-title "  style="background-color: black;opacity: 0.7; width: 100%;padding: 5px;">
+                                    <h3 class="">
+                                        Donec pede justo
+                                    </h3>
+                                    <p style="font-size: 14px;">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3 text-center" >
+                            <div style="background-color: white; padding:1rem" class="mr-3">
+                                <div class="position-relative">
+                                    <img src="./img/special-3.jpg" alt="" class="position-relative">
+                                    <div class="position-absolute special-title" style="background-color: black;opacity: 0.7; width: 100%;padding:0.5rem">
+                                        <p style="font-size: 14px;">
+                                            Vivamus elementum
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="background-color:white; padding:1rem">
+                                <div class="position-relative">
+                                    <img src="./img/special-4.jpg" alt="" class="position-relative">
+                                    <div class="position-absolute special-title" style="background-color: black;opacity: 0.7; width: 100%;padding:0.5rem">
+                                        <p style="font-size: 14px;">
+                                            Quisque rutrum.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="d-flex align-items-center container">
+                <img class="item-logo " src="./img/logo.png" alt="">
+                <h1 class="gold-text tm-handwriting-font p-2 ">Daily-Menu</h1>
+                <hr class=" flex-grow-1 tm-hr" style="border-color:#c79c60;">
+            </div>
+            <div class="daily-menu mt-5 container d-flex pb-5" >
+                <div style="padding-left: 15px;padding-right: 5rem;">
+                    <img src="./img/menu-board.png" alt="">
+                </div>
+                
+                <div>
+                    <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+                    <ol class="mt-5 pl-5">
+                        <li>
+                            <p>Tellus eget condimentum rhoncus.</p> </li>
+                        <li><p>Sem quam semper libero.</p></li>
+                        <li><p>Sit amet adipiscing sem neque sed ipsum</p></li>
+                        <li><p>Maecenas nec odio et ante tincidunt tempus.</p></li>
+                        <li><p>Maecenas nec odio et ante tincidunt tempus.</p></li>
+                        <li><p>Donec vitae sapien ut libero ventenatis faucibus.</p></li>
+                    </ol>
+                </div>
+            </div>
+        </section>
    </main>
+   <footer class="bg-dark">
+       <div class="container d-flex pt-5" style="color: white;font-size: 14px; padding-bottom: 2%;" >
+        <nav class="col-3" style="text-transform: uppercase;font-weight: 700;">
+            <h3 >Main Menu</h3>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Direction</li>
+                <li>Blog</li>
+                <li>Our services</li>
+            </ul>
+        </nav>
+        <div class="col-5" >
+            <h3>About Us</h3>
+            <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. <br><br>
+
+                Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+        </div>
+        <div class="col-4" >
+            <h3>Get Social</h3>
+            <div class="social-icons-container">
+                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante.</p>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-behance"></i></a>
+              </div>
+        </div>
+       </div>
+   </footer>
+   <div class="copy-right text-center pt-3 bg-gray" style="height: 60px;">
+       <p>Copyright © 2084 Your Cafe House. Design: template mo</p>
+   </div>
 </body>
 </html>

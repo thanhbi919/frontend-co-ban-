@@ -101,3 +101,9 @@ a, a:hover{
 .button-background a:hover{
     color:white;
 }
+.end-welcome{
+    /* width: 100%; */
+    width: 200%;
+    top: 80%;
+    left: -46%;
+}

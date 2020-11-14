@@ -4,29 +4,38 @@
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
-.header-container{
-    background-color: black;
+.header-content{
+    padding: 10px 0 10px;
 }
-.container{
-    max-width: 960px;
+.img-logo{
+    width: 50%;
 }
-.header-container .top-header{
-    padding: 10px 0;
+.active{
+    background-image: url(./img/logo.png),url(./img/nav-underline.png);
+    background-repeat: no-repeat;
+    background-color: none;
+    background-size: 20px, 74px 17px;
+    background-position: 0% 30%, center bottom;
+    background-position-x: 0%, center;
+    background-position-y: 30%, bottom;
 }
-.top-header img{
-    padding-right: 10px;
-}
-.header-container .nav a{
-    font-size: 14px;
+
+.none-nav {
+    background-color: #343a40!important;
     color: white;
-    text-decoration: none;
-    font-weight: 700; 
     text-transform: uppercase;
 }
-.header-container .nav a:hover{
-    color:  #c79c60;
-    transition: 0.7s ease-in;
+.nav-link{
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 30px;
+    width: auto;
+    height: 47px;
 }
+.nav-link:hover{
+    color: #c79c60 ;
+}
+
 .active{
     background-image: url(./img/logo.png),url(./img/nav-underline.png);
     background-repeat: no-repeat;
@@ -118,4 +127,74 @@
 .btn-read{
     margin-top: 2%;
     margin-left: 0%;
+}
+.main-section{
+    margin-bottom: 3rem;
+}
+.item-logo{
+    padding:0 0 0.5rem;
+}
+.popular-item{
+    background: url(./img/popular-item-bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+.order-now-link{
+    /* font-size: 24px; */
+    border: 2px solid rgb(174,174,174);
+    border-radius: 50%;
+    width: 78px;
+    height: 78px;
+    padding-top: 8px;   
+}
+.order-now{
+    top:85%;
+    left: 36%;
+    color:  rgb(174,174,174);
+}
+.order-now:hover a{
+    text-decoration: none;
+    color: #c79c60;
+}
+.popular-item-tilte:hover hr{
+    border-color: #c79c60;
+}
+.popular-item-tilte:hover{
+    color:#c79c60 ;  
+}
+.order-now a{
+    color: rgb(174,174,174);
+}
+.special-title{
+    bottom: 0;
+    left: 0;
+    color:white;
+}
+p{
+    margin-bottom: 0 !important;
+}
+.bg-gray{
+    background-color:#e4e4e4;
+}
+ol li{
+    color: #c79c60;
+}
+li p{
+    color: black
+}
+ul li{
+    list-style: none;
+}
+.social-icon{
+    background-color: #505050;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 4px;
+    margin-right: 10px;
 }
